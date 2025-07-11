@@ -1,0 +1,82 @@
+/* bootstrap icon to link */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+/* colors start css */
+:root{
+    /* colors */
+    --color-bg:#ecf0f1;
+    --text-color:#ffffff;
+    --title:#34495e;
+    --fon:#bdc3c7;
+    --btn:#2980b9;
+    --hover:#1c6690;
+    /* fonts  */
+    --roboto:'Roboto', sans-serif;
+    --poppins:'Poppins', sans-serif;
+}
+/* colors end css */
+/* defoult style css start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--color-bg);
+    font-family: var(--roboto);
+}
+/* defoult style css end */
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+/* Profile card to style start */
+.profile-card{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    margin: 20px;
+}
+/* Profile card to style end */
+.skills{
+    list-style-type: none;
+}
+/* bio style to start*/
+p{
+  border: 0.1px solid #e0e0e0;
+  color: --text-color;
+  opacity: 0.9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2%;
+  margin:  4% 3%;
+}
+/* contact start to style */
+.contact{
+    width: 100%;
+    gap: 30px;
+    font-size: 20px;
+    display: flex;
+    justify-content:space-around;
+    margin-top: 1rem;
+    color: var(--title);
+}
+a{
+    text-decoration: none;
+    color: var(--title);
+}
+a:hover{
+    color: var(--btn);
+}
+/* contact start to style */
+span{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+@media (max-width: 500px) {
+    .profile-card {
+      max-width: 90%;
+    }
+  }
+  
