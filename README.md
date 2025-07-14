@@ -1,10 +1,10 @@
-my-profile
+# my-profile
 
-## 🔗 Demo
+## Demo
 
-👉 [View Live Demo](https://my-profile-k-lab.netlify.app/)
+[View Live Demo](https://my-profile-k-lab.netlify.app/)
 
-## 📁 Clone the Repository
+## Clone the Repository
 
 ```bash
 git clone https://github.com/coder-anvarjon/my-profile.git
