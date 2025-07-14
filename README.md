@@ -1,4 +1,4 @@
-# my-profile
+my-profile
 
 ## 🔗 Demo
 
